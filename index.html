@@ -1,15 +1,13 @@
-<!DOCTYPE html><html lang="pt-BR">
+
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Plataforma Mundial Márcio Francisco</title>
+  <title>Global Plataform</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
       font-family: 'Orbitron', sans-serif;
       background: linear-gradient(to right, #000428, #004e92);
@@ -21,14 +19,8 @@
       background: rgba(0, 0, 0, 0.7);
       box-shadow: 0 0 10px #00f2ff;
     }
-    header h1 {
-      font-size: 2.5em;
-      color: #00f2ff;
-    }
-    header p {
-      font-size: 1.2em;
-      margin-top: 10px;
-    }
+    header h1 { font-size: 2.5em; color: #00f2ff; }
+    header p { font-size: 1.2em; margin-top: 10px; }
     .hero-img {
       width: 90%;
       max-width: 700px;
@@ -36,13 +28,8 @@
       border-radius: 16px;
       box-shadow: 0 0 20px #00f2ff;
     }
-    .section {
-      padding: 40px 20px;
-    }
-    .section h2 {
-      color: #00f2ff;
-      margin-bottom: 20px;
-    }
+    .section { padding: 40px 20px; }
+    .section h2 { color: #00f2ff; margin-bottom: 20px; }
     .card {
       background: rgba(255, 255, 255, 0.05);
       border: 1px solid #00f2ff;
@@ -66,11 +53,10 @@
       border: none;
       border-radius: 10px;
       cursor: pointer;
+      text-decoration: none;
       transition: background 0.3s;
     }
-    .btn:hover {
-      background: #00c4d8;
-    }
+    .btn:hover { background: #00c4d8; }
     .wallet-box {
       background: #000;
       padding: 20px;
@@ -90,29 +76,39 @@
 </head>
 <body>
   <header>
-    <h1>Plataforma Mundial Márcio Francisco</h1>
+    <h1>Global Plataform</h1>
     <p>Unindo humanidade e futuro em uma estação simbólica espacial</p>
-  </header>  <img class="hero-img" src="A_digital_graphic_design_promotional_webpage_depic.png" alt="Ilustração PMMF" />  <div class="section">
+  </header>
+
+  <img class="hero-img" src="banner.png" alt="Ilustração PMMF" />
+
+  <div id="manifesto" class="section">
     <h2>Manifesto</h2>
     <div class="card">
-      <p>A PMMF representa uma nova era de colaboração global. Uma plataforma espacial simbólica criada para unir povos, ideias e inovações com propósito humanitário e ambiental.</p>
+      <p>A Global Plataform representa uma nova era de colaboração global. Uma plataforma simbólica criada para unir povos, ideias e inovações com propósito humanitário e ambiental.</p>
     </div>
-  </div>  <div class="section">
+  </div>
+
+  <div id="doacoes" class="section">
     <h2>Carteira Oficial para Doações</h2>
     <div class="wallet-box">
       <p><strong>Endereço:</strong></p>
       <p>0xe8dd51662aba980c70b1cc1998363ad22ea715c5</p>
       <p>Qualquer valor em ETH ou tokens ERC-20</p>
     </div>
-  </div>  <div class="section">
+  </div>
+
+  <div id="participar" class="section">
     <h2>Participe do Movimento</h2>
     <div class="buttons">
-      <button class="btn">Quero Participar</button>
-      <button class="btn">Quero Doar</button>
-      <button class="btn">Quero Divulgar</button>
+      <a href="#participar" class="btn">Quero Participar</a>
+      <a href="#doacoes" class="btn">Quero Doar</a>
+      <a href="#manifesto" class="btn">Quero Divulgar</a>
     </div>
-  </div>  <footer>
-    <p>&copy; 2025 Plataforma Mundial Márcio Francisco. Todos os direitos reservados.</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Global Plataform. Todos os direitos reservados.</p>
   </footer>
 </body>
 </html>
