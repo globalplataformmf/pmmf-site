@@ -1,0 +1,75 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plataforma Mundial Márcio Francisco (PMMF)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: radial-gradient(circle, #000 40%, #111 100%);
+      color: #fff;
+      text-align: center;
+    }
+    .hero {
+      padding: 40px 20px;
+    }
+    .hero img {
+      width: 80%;
+      max-width: 600px;
+      border: 2px solid #0ff;
+      border-radius: 16px;
+    }
+    .manifesto {
+      margin: 40px auto;
+      max-width: 800px;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 16px;
+      border: 1px solid #0ff;
+    }
+    .btn {
+      display: inline-block;
+      margin: 12px;
+      padding: 14px 28px;
+      font-size: 1.1em;
+      border: none;
+      border-radius: 10px;
+      background: #0ff;
+      color: #000;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #0cc;
+    }
+    .address-box {
+      background: #000;
+      border: 1px solid #0ff;
+      margin-top: 30px;
+      padding: 20px;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Plataforma Mundial Márcio Francisco</h1>
+    <h3>Uma visão além da Terra</h3>
+    <img src="A_digital_illustration_in_the_science_fiction_and_.png" alt="PMMF Ilustração Oficial">
+  </div>  <div class="manifesto">
+    <h2>Manifesto Oficial</h2>
+    <p>A humanidade precisa de um novo símbolo. A Plataforma Mundial Márcio Francisco é uma estação simbólica suspensa sobre o planeta — um marco de união, tecnologia e proteção do futuro.</p>
+    <p>Junte-se a este projeto histórico. Torne-se um dos colaboradores fundadores.</p>
+  </div>  <div class="address-box">
+    <h3>Endereço oficial de doação (Ethereum)</h3>
+    <p><code>0xe8dd51662aba980c70b1cc1998363ad22ea715c5</code></p>
+    <p>Envie qualquer valor em ETH ou tokens ERC-20</p>
+  </div>  <div>
+    <a class="btn" href="#">Quero Participar</a>
+    <a class="btn" href="#">Quero Doar</a>
+    <a class="btn" href="#">Quero Divulgar</a>
+  </div>
+</body>
+</html>
